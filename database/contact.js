@@ -30,6 +30,6 @@ const getDatabase = () => {
 
 
 module.exports = {
-    initDb, 
-    getDatabase
-};
+  initDb, 
+  getDatabase
+}

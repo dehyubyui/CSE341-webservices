@@ -2,6 +2,8 @@
 const express = require('express');
 const router = express.Router();
 
+router.use('/', require('./swagger'));
+
 // Define routes
 router.get('/', (req, res) => {
     res.send('Hello World');
